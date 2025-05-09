@@ -1,8 +1,8 @@
 import { MongoClient } from 'mongodb';
 
-const url = 'mongodb+srv://cdl2141:123456789a!!@cluster0.q3rburu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const url = 'mongodb+srv://디비아이디와비밀번호@cluster0.q3rburu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 
-// ✅ 여기에 타입 명시
+
 let connectDB: Promise<MongoClient>;
 
 declare global {
