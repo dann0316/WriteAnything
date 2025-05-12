@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { connectDB } from "../../../util/database";
+import { connectDB } from "../../../utils/database";
 import { MongoClient, ObjectId } from "mongodb";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse, props: { params: { id: string } }) {

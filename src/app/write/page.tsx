@@ -31,24 +31,24 @@ export default function Write() {
 
     return (
         <div>
-            <h4>글쓰기</h4>
+            {/* <h4>글쓰기</h4>
             <form action="/api/test" method="POST">
                 <input type="text" name="title" placeholder="제목" />
                 <input type="text" name="content" placeholder="내용" />
                 <button type="submit">저장</button>
             </form>
 
-            <h4>숙제 1</h4>
+            
             <form action="/api/list" method="GET">
                 <button type="submit">콘솔에 데이터 보여주기</button>
             </form>
 
-            <h4>숙제 2</h4>
+            
             <form action="/api/time" method="GET">
                 <button type="submit">현재시간 보여주기</button>
-            </form>
+            </form> */}
 
-            <h4>숙제 3 진짜 글 발행임 이게</h4>
+            <h4>글 발행</h4>
             <form
                 action="/api/post/write"
                 method="POST"

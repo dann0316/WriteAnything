@@ -1,4 +1,4 @@
-import { getServerSession } from "next-auth";
+import { getServerSession, NextAuthOptions } from "next-auth";
 import { authOptions } from "../../../pages/api/auth/[...nextauth]";
 import Link from "next/link";
 import LoginBtn from "./LoginBtn";
@@ -6,7 +6,7 @@ import logo from "../../../public/logo.png";
 import LogoutBtn from "./LogoutBtn";
 
 export default async function Header() {
-    const session = await getServerSession(authOptions);
+    const session = await getServerSession(authOptions as NextAuthOptions);
     console.log(session);
 
     return (

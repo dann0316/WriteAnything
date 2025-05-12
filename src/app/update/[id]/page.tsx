@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { connectDB } from "../../../../util/database";
+import { connectDB } from "../../../../utils/database";
 import { ObjectId } from "mongodb";
 
 export default async function Update(props: { params: { id: string } }) {

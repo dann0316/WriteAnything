@@ -1,5 +1,5 @@
 import { MongoClient, ObjectId } from "mongodb";
-import { connectDB } from "../../../util/database.ts";
+import { connectDB } from "../../../utils/database.ts";
 import ListItem from "./ListItem.tsx";
 
 

@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { connectDB } from "../../util/database";
+import { connectDB } from "../../utils/database";
 import { MongoClient, ObjectId } from "mongodb";
 import { SessionContext } from "next-auth/react";
 import { getServerSession } from "next-auth";

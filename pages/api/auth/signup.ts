@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { connectDB } from "../../../util/database";
+import { connectDB } from "../../../utils/database";
 import { MongoClient } from "mongodb";
 import bcrypt from "bcrypt";
 
