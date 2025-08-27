@@ -48,7 +48,7 @@ export default function Write() {
                 <button type="submit">현재시간 보여주기</button>
             </form> */}
 
-            <h4>글 발행</h4>
+            <h4 className="p-40">글 발행</h4>
             <form
                 action="/api/post/write"
                 method="POST"

@@ -6,6 +6,7 @@ import { Providers } from "./provider";
 import SideBanner from "./components/SideBanner";
 import { Nanum_Pen_Script } from "next/font/google";
 
+
 const nanumPen = Nanum_Pen_Script({
   subsets: ["latin"],
   weight: "400",
@@ -33,12 +34,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
 
+  
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${nanumPen.variable} antialiased`} >
         <Header/>
-        {/* <SideBanner/> */}
+        <SideBanner/>
         <Providers>
           {children}
         </Providers>
