@@ -116,4 +116,21 @@ project-root/
 
 특히 NextAuth와 MongoDB를 다루면서 인증/보안, 데이터 영속성의 중요성을 실감했고, UI와 API를 어떻게 명확히 분리할지 고민하면서 설계 능력도 키울 수 있었습니다.  
 
-다만 아직 게시글 추천, 태그 검색, 댓글 시스템 등 확장 기능은 구현하지 못했습니다. 앞으로는 TanStack Query를 통한 데이터 캐싱, 서버 액션(Server Action) 최적화, 더 나아가 클라우드 배포 경험까지 확장해보고자 합니다.  
+다만 아직 게시글 추천, 태그 검색, 댓글 시스템 등 확장 기능은 구현하지 못했습니다. 앞으로는 TanStack Query를 통한 데이터 캐싱, 서버 액션(Server Action) 최적화, 더 나아가 클라우드 배포 경험까지 확장해보고자 합니다.
+
+# 사진
+
+- List Page
+![listPage](../fresh/public/screenshot/list.png)
+
+- Datail Page
+![detailPage](../fresh/public/screenshot/detail.png)
+
+- Home Page
+![homePage](../fresh/public/screenshot/home.png)
+
+- Login Page
+![loginPage](../fresh/public/screenshot/home.png)
+
+- Credentail Register Page
+![registerPage](../fresh/public/screenshot/register.png)
