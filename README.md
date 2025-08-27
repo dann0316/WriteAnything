@@ -121,16 +121,16 @@ project-root/
 # 사진
 
 - List Page
-![listPage](../fresh/public/screenshot/list.png)
+![listPage](./public/screenshot/list.png)
 
 - Datail Page
-![detailPage](../fresh/public/screenshot/detail.png)
+![detailPage](./public/screenshot/detail.png)
 
 - Home Page
-![homePage](../fresh/public/screenshot/home.png)
+![homePage](./public/screenshot/home.png)
 
 - Login Page
-![loginPage](../fresh/public/screenshot/home.png)
+![loginPage](./public/screenshot/home.png)
 
 - Credentail Register Page
-![registerPage](../fresh/public/screenshot/register.png)
+![registerPage](./public/screenshot/register.png)
