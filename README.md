@@ -120,18 +120,22 @@ project-root/
 
 # 사진
 
+- Home Page
+
+<img src="./public/screenshot/home.png" alt="homePage" width="400"/>
+
+- Credentail Register Page
+
+<img src="./public/screenshot/register.png" alt="registerPage" width="400"/>
+
+- Login Page
+
+<img src="./public/screenshot/login.png" alt="loginPage" width="400"/>
+
 - List Page
+
 <img src="./public/screenshot/list.png" alt="listPage" width="400"/>
 
 - Datail Page
-![detailPage](./public/screenshot/detail.png)
+
 <img src="./public/screenshot/detail.png" alt="datailPage" width="400"/>
-
-- Home Page
-![homePage](./public/screenshot/home.png)
-
-- Login Page
-![loginPage](./public/screenshot/login.png)
-
-- Credentail Register Page
-![registerPage](./public/screenshot/register.png)
